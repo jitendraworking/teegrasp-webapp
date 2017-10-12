@@ -1,0 +1,15 @@
+teegrasp:
+    path:     /
+    defaults: { _controller: TeeGraspWebBundle:Default:index }
+
+teegrasp_homepage:
+    path:     /home
+    defaults: { _controller: TeeGraspWebBundle:Default:index }
+
+teegrasp_dashboard:
+    path:     /dashboard
+    defaults: { _controller: TeeGraspWebBundle:Default:index }
+
+teegrasp_review:
+    path:     /review
+    defaults: { _controller: TeeGraspWebBundle:Default:index }

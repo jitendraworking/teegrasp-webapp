@@ -1,0 +1,5 @@
+teegrasp_user:
+    path:  /user
+    defaults: { _controller: TeeGraspApiBundle:Api:get, _format: ~ }
+    requirements:
+        _method: GET 

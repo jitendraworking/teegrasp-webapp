@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8" />
+        <title>{% block title %}Welcome!{% endblock %}</title>
+        {% block stylesheets %}{% endblock %}
+        <base href="./">
+        <link rel="icon" type="image/x-icon" href="{{ asset('favicon.ico') }}" />
+        <link href='angular4/assets/css/bootstrap.css' rel='stylesheet' type='text/css'>
+        <link rel="stylesheet" type="text/css" href="angular4/assets/font-awesome/css/font-awesome.css">
+        {#
+        <link href='angular4/assets/css/style.css' rel='stylesheet' type='text/css'>
+        #}
+    </head>
+    <body>
+        {% block body %}{% endblock %}
+        {% block javascripts %}{% endblock %}
+    </body>
+    <script type="text/javascript" src="angular4/assets/js/jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="angular4/assets/js/bootstrap.js"></script>
+    {#
+    <script type="text/javascript" src="angular4/inline.bundle.js"></script>
+    <script type="text/javascript" src="angular4/polyfills.bundle.js"></script>
+    <script type="text/javascript" src="angular4/styles.bundle.js"></script>
+    <script type="text/javascript" src="angular4/vendor.bundle.js"></script>
+    <script type="text/javascript" src="angular4/main.bundle.js"></script>
+    #}
+</html>
